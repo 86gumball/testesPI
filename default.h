@@ -11,3 +11,9 @@ typedef struct nodo {
 typedef struct posicao {
     int x, y;
 } Posicao;
+
+typedef struct celula {
+    char *palavra;
+    int comp;
+    struct celula *prox;
+} *Palavras;
